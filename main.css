@@ -1,0 +1,56 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-image: url(https://avatars.mds.yandex.net/i?id=2bac0a5b56766e4b705f78164f74de01_l-2816445-images-thumbs&n=13); /* Header uchun rasm URL'sini o'zgartiring */
+    background-size: cover; /* Rasmni to'liq qoplash */
+    background-position: center; /* Rasmni markazda joylashtirish */
+    padding: 40px; /* Rasmga ko'proq bo'sh joy berish */
+    text-align: center;
+    color: white; /* Matn rangini o'zgartirish */
+}
+header h1, header p {
+    color: white; /* Yozuvning rangi oq */
+    text-shadow: 2px 2px 0 black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black; /* Qizil chetlar */
+}
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+section {
+    margin: 20px 0;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+}
+.map-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.map-button:hover {
+    background-color: #45a049;
+}
